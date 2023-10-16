@@ -1,0 +1,37 @@
+// 修改antd样式
+
+// 下拉菜单的宽度
+.ant-menu-submenu-popup{
+  // width:100%
+}
+.ant-spin-container::after{
+  background-color: transparent;
+}
+
+.ant-carousel .slick-list{
+  // overflow: visible!important
+}
+
+// 轮播图
+.slick-dots-change {
+  li {
+    background-color: #B3B3B3
+  }
+
+  li.slick-active button {
+    background: #3C83FF!important;
+  }
+
+}
+
+
+// Card
+.ant-tabs-nav-list{
+  margin: 30px auto;
+}
+// .ant-tabs-tab-btn{
+//   font-size: 20px;
+//   padding: 0 20px;
+//   border-left: 1px solid #eef0f6;
+//   border-right: 1px solid #eef0f6;
+// }

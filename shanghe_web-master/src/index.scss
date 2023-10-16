@@ -1,0 +1,11 @@
+@import 'var.scss';
+.test{
+    color: blue;
+    width: 50px;
+    font-size: 40px;
+    display: flex;
+    @include ellipsis;
+    .test2{
+        color:red;
+    }
+}

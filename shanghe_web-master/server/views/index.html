@@ -1,0 +1,37 @@
+<% var bundlePrefix=isDev ? 'http://localhost:8001' : '/dist' %>
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+    <title><%- title %></title>
+    <link rel="icon" href="/assets/images/logo.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="/public/bulma.min.css" type="text/css" rel="stylesheet">
+    <% if (!isDev) { %>
+      <% if (manifest && manifest.css && manifest.css.length> 0) { %>
+        <% manifest.css.forEach(function(item){ %>
+          <link href="<%= bundlePrefix %>/<%= item %>" rel="stylesheet" media="all" />
+          <% }) %>
+            <% } %>
+              <% } %>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- 动态引入验证码JS示例 -->
+    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+    <script>
+      var userinfo = JSON.parse('<%- userinfo %>')
+      sessionStorage.setItem('config', '<%- config %>')
+    </script>
+    <% if (manifest && manifest.js && manifest.js.length> 0) { %>
+      <% manifest.js.forEach(function(item){ %>
+        <script type="text/javascript" src="<%= bundlePrefix %>/<%= item %>"></script>
+        <% }) %>
+          <% } %>
+  </body>
+
+  </html>

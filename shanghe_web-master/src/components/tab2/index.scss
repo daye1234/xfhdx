@@ -1,0 +1,25 @@
+.Tab{
+  max-width: 1200px;
+    overflow-x: auto;
+  padding: 55px 0;
+  display: flex;
+ 
+  border-bottom: 1px solid #F1F2F7;
+  .tab-data{
+    margin:0 36px;
+    padding: 4px 0;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .tab-selected{
+    color: #1237EF;
+    border-bottom: 2px solid #1237EF;
+  }
+  .var-line{
+    width: 1px;
+    // height: cacl(100%);
+    background-color: #F1F2F7;
+  }
+}

@@ -1,0 +1,60 @@
+
+
+@font-face {
+    font-family: 'SiYuanHeiTi';
+    font-display: swap;
+    font-weight: 400;
+    src: url('normal.eot'); /* IE9 */
+    src: url('normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('normal.woff2') format('woff2'),
+    url('normal.woff') format('woff'), /* chrome、firefox */
+    url('normal.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('normal.svg#bold') format('svg'); /* iOS 4.1- */
+  }
+  @font-face {
+    font-family: 'SiYuanHeiTi';
+    font-display: swap;
+    font-weight: normal;
+    src: url('normal.eot'); /* IE9 */
+    src: url('normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('normal.woff2') format('woff2'),
+    url('normal.woff') format('woff'), /* chrome、firefox */
+    url('normal.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('normal.svg#bold') format('svg'); /* iOS 4.1- */
+  }
+  
+  @font-face {
+    font-family: 'SiYuanHeiTi';
+    font-display: swap;
+    font-weight: 500;
+    src: url('medium.eot'); /* IE9 */
+    src: url('medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('medium.woff2') format('woff2'),
+    url('medium.woff') format('woff'), /* chrome、firefox */
+    url('medium.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('medium.svg#bold') format('svg'); /* iOS 4.1- */
+  }
+  
+  
+  @font-face {
+    font-family: 'SiYuanHeiTi';
+    font-display: swap;
+    font-weight: 700;
+    src: url('bold.eot'); /* IE9 */
+    src: url('bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('bold.woff2') format('woff2'),
+    url('bold.woff') format('woff'), /* chrome、firefox */
+    url('bold.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('bold.svg#bold') format('svg'); /* iOS 4.1- */
+  }
+  @font-face {
+    font-family: 'SiYuanHeiTi';
+    font-display: swap;
+    font-weight: bold;
+    src: url('bold.eot'); /* IE9 */
+    src: url('bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('bold.woff2') format('woff2'),
+    url('bold.woff') format('woff'), /* chrome、firefox */
+    url('bold.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('bold.svg#bold') format('svg'); /* iOS 4.1- */
+  }

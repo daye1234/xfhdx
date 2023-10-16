@@ -1,0 +1,29 @@
+server:
+  http:
+    hostname: 'localhost'
+    port: 8000
+    static:
+      development:
+        /public: server/public
+        /assets: src/assets
+        /build: build
+        /dist: dist
+      production:
+        /public: server/public
+        /assets: dist/assets
+        /dist: dist
+  gatewayServer:
+    url: https://shanghe.qlu.edu.cn
+    wsUrl: wss://XXX
+  sessionKey: 'sdcloud:sess'
+  sessionTimeout: 7200000 # unit: millisecond
+  mysql:
+    port: 3306
+    host: 127.0.0.1
+    user: root
+    password: '******'
+    # database: session
+
+client:
+  title: 齐鲁工业大学（山东省科学院）上合区域研究中心
+  filePath: http://10.106.18.250:45038/ecos/file/shanghe/ # 文件访问路径

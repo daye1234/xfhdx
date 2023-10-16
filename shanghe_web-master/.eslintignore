@@ -1,0 +1,5 @@
+dist/
+build/
+scripts/
+node_modules/
+.eslintrc.js

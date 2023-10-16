@@ -1,0 +1,5 @@
+
+
+.draggable-antd-modal-container .ant-modal-header {
+  cursor: move;
+}

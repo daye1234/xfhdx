@@ -1,0 +1,41 @@
+.homeEnding{
+    height: 400px;
+    background-color: #eff3f6;
+    margin-top: 4%;
+    .end_img{
+        width: 1130px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        .Info{
+            position: relative;
+            cursor: pointer;
+            .information{
+                position: absolute;
+                top: 42%;
+                left: 11%;
+                font-weight: bold;
+                color: white;
+                font-size: 28px;
+                transform: translate(-50%, 0);
+            }
+        }
+        .Con{
+            position: relative;
+            cursor: pointer;
+            .contact{
+                position: absolute;
+                top: 42%;
+                left: 16%;
+                font-weight: bold;
+                color: white;
+                font-size: 28px;
+                transform: translate(-50%, 0);
+            }
+        }
+    }
+}
+
+

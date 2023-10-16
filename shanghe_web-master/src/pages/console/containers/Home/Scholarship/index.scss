@@ -1,0 +1,85 @@
+.homeScholarship{
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    .scho_left{
+        width: 500px;
+        margin: 50px;
+        margin-top: 80px;
+        .scho_title{
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .scho_desc{
+            margin: 10px 0;
+            color: #c1c1c1;
+        }
+        .scho_func{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            width: 90px;
+            .scho_func_item{
+                margin: 10px 0;
+                border: none;
+            }
+            .scho_func_btn{
+                margin-top: 20px;
+                width: 130px;
+                height: 50px;
+            }
+        }
+    }
+    .scho_right{
+        width: 100%;
+        margin-top: 80px;
+        overflow: auto;
+        .scho_item{
+            width: 90%;
+            height: 250px;
+            display: flex;
+            justify-content: flex-start;
+            padding: 25px;
+            border-bottom: 1px solid #c1c1c1;
+            transition: 0.5s;
+            cursor: pointer;
+            .item_img{
+                width: 175px;
+                height: 175px;
+            }
+            .item_text{
+                margin-right: 160px;
+                float: right;
+                margin-left: 20px;
+                .text_label{
+                    text-align: center;
+                    width: 80px;
+                    margin-top: 40px;
+                    margin-left: 5px;
+                    border: 1px solid #000;
+                }
+                .text_title{
+                    margin: 10px 0;
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+                .text_desc{
+                    width: 900px;
+                    margin: 10px 0;
+                    color: #c4c4c4;
+                    overflow: hidden;
+                    -webkit-line-clamp: 1;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+        .scho_item:hover{
+            background-color: #e5e6e8;
+        }
+    }
+    .scho_right::-webkit-scrollbar{
+        display: none;
+    }
+}

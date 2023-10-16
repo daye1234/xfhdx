@@ -1,0 +1,27 @@
+.QB_news2Son{
+    padding-top: 30px;
+    .center{
+        display: flex;
+        justify-content: flex-start;
+        .bdName{
+            width: 80px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        .name{
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+    .anoTitle{
+        font-weight: bold;
+        margin: 50px 0;
+    }
+    .desc{
+        text-indent: 40px;
+        color: #6a7789;
+    }
+}

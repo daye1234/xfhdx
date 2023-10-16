@@ -1,0 +1,18 @@
+@import 'var.scss';
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 80px;
+  background-color: rgba(15, 90, 133, 1);
+  font-size: 12px;
+  color: #fff;
+  .logo {
+    min-width: 600px;
+    img {
+      height: 52px;
+      // height: 80px;
+    }
+  }
+}

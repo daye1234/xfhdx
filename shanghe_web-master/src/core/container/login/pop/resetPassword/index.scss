@@ -1,0 +1,31 @@
+.captcha{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    .input {
+        flex:1;
+        padding: 4px 6px;
+        height: 36px;
+        font-size: 16px;
+        margin: 5px 0;
+        border-radius: 2px;
+    
+    
+    }
+    .yzmbtn{
+        width: 100px;
+        height: 36px;
+        background-color: rgba(240,234,250,1);
+       margin-left: 10px;
+       
+        border-radius: 0;
+        letter-spacing: 1px;
+        text-align: center;
+        outline: none;
+        span{
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}

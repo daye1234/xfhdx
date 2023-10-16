@@ -1,0 +1,33 @@
+.expertDescSon{
+    padding-top: 30px;
+    .back{
+        float: right;
+        cursor: pointer;
+        font-size: 30px;
+        color: #edb452;
+    }
+    .center{
+        display: flex;
+        justify-content: flex-start;
+        .pic{
+            width: 360px;
+            height: 450px;
+        }
+        .bdName{
+            width: 80px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        .name{
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+    .desc{
+        text-indent: 40px;
+        color: #6a7789;
+    }
+}

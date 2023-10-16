@@ -1,0 +1,45 @@
+$red: red;
+$title: #223047;
+$gray: #8D8D8D;
+$blue: #091C38;
+
+$font-family: 'Helvetica Neue','PingFang SC','Hiragino Sans GB','Heiti SC','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+$font-heiti:SiYuanHeiTi;
+
+@mixin main-center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// 单行省略号
+@mixin ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+// 2行省略
+@mixin ellipsis-many{
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+// 左右居中
+@mixin center-level{
+    display: flex;
+    justify-content: center;
+}
+// 上下居中
+@mixin center-vertical{
+    display: flex;
+    align-items: center;
+}
+// 居中
+@mixin center-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

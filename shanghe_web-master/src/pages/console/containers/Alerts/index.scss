@@ -1,0 +1,28 @@
+.AlertsSon{
+    position: relative;
+    .AlertBgImg {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+    }
+    .title{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        font-weight: bold;
+        font-size: 60px;
+        color: white;
+        transform: translate(-50%, -50%);
+    }
+    .items{
+        width: 90%;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        // transform: translate(-50%, -50%);
+        // border: 1px solid #000;
+    }
+    .contentList{
+        height: 100%;
+    }
+}

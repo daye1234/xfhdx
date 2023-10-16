@@ -1,0 +1,19 @@
+.banner{
+  height: 600px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  .dec{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    span{
+      margin:0 10px;
+    }
+  }
+}

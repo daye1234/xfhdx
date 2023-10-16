@@ -1,0 +1,55 @@
+.Tab{
+  width: 200px;
+    // overflow-x: auto;
+  // padding: 55px 0;
+  // display: flex;
+ 
+  border-bottom: 1px solid #F1F2F7;
+  .tab-data{
+    // margin:0 36px;
+    // padding: 4px 0;
+    width: 135px;
+    height: 45px;
+    cursor: pointer;
+    border: 1px solid #e1e2e6;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .kailong{
+        position: absolute;
+        top: 12px;
+        right: -16px;
+        width: 0;
+        height: 0;
+        border-right: 8px solid transparent;
+        border-left: 8px solid #102399;
+        border-bottom: 8px solid transparent;
+        border-top: 8px solid transparent;
+    }
+    .kailong2{
+      position: absolute;
+      top: 43px;
+      right: 41px;
+      width: 0;
+      height: 0;
+      border-right: 8px solid transparent;
+      border-left: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-top: 8px solid #102399;
+  }
+  }
+  .tab-selected{
+    background-color: #102399;
+    color: #fff;
+    // border-bottom: 2px solid #1237EF;
+  }
+
+  .var-line{
+    width: 1px;
+    // height: cacl(100%);
+    background-color: #F1F2F7;
+  }
+}
